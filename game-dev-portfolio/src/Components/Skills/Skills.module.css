@@ -1,0 +1,55 @@
+.skills {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.skills img {
+    transition: .6s ease-in;
+    width: 65%;
+    margin-top: 30px;
+}
+
+.skillName {
+    width: 20%;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin: 10px 20%;
+}
+
+.skillBarContainer {
+    width: 100%;
+}
+
+
+.skillBar {
+    margin-top: 20px;
+    background-color: #d0d0d0;
+    height: 10px;
+    text-align: right;
+    position: relative;
+    width: 100%;
+}
+
+.skillPercintage {
+    transition: 1s ease-in;
+    height: 10px;
+    background-color: #4f648f;
+}

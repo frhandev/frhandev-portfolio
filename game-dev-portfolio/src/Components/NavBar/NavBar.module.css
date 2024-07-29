@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    color: #000;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.secTitles {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.secTitles  a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+
+.secTitles  a:hover {
+    text-decoration: underline;
+    color: #4f648f;
+}
+
+@media (max-width: 425px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .secTitles {
+        margin-right: 10px;
+    }
+}
+

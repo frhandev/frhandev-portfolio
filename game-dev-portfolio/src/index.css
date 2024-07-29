@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    scroll-behavior: smooth;
+}
+
+footer {
+    color: #000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 1.5em;
+    margin: 0 5px;
+    transition: 0.4s ease-in-out;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+#scrollBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

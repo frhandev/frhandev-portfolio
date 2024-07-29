@@ -1,0 +1,50 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 20em;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: solid 1px;
+}
+
+.home h1 {
+  font-size: 2em;
+  font-weight: 1200;
+  margin-bottom: 15px;
+}
+
+.socials {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+  width: 30%;
+  justify-content: center;
+}
+
+.socialIcon img {
+  width: 35px;
+  transition: 0.3s ease-in-out;
+}
+
+.socialIcon img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  .home img {
+    width: 60%;
+  }
+
+  .socials {
+    width: 90%;
+  }
+}
